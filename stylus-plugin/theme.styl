@@ -1,0 +1,9 @@
+prefers-scheme(scheme)
+  themes = light dark
+  error('invalid color scheme: light | dark') unless scheme in themes
+  if scheme == light
+    &, .light-mode &
+      {block}
+  else if scheme == dark
+    .dark-mode &
+      {block}

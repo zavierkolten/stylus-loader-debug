@@ -1,0 +1,20 @@
+{
+  "name": "stylus-loader-debug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node bundle.js",
+    "build": "NODE_ENV=production node bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.1",
+    "stylus-loader": "^8.1.0",
+    "webpack": "^5.94.0",
+    "webpack-dev-middleware": "^7.4.2"
+  }
+}
