@@ -16,5 +16,10 @@
     "stylus-loader": "^8.1.0",
     "webpack": "^5.94.0",
     "webpack-dev-middleware": "^7.4.2"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "stylus-loader@8.1.0": "patches/stylus-loader@8.1.0.patch"
+    }
   }
 }

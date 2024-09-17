@@ -1,0 +1,14 @@
+diff --git a/dist/index.js b/dist/index.js
+index c053b53b874802a42db40cb0fa659f896602e8fe..c03c718fc61f61e13e59162e836e748d202ac861 100644
+--- a/dist/index.js
++++ b/dist/index.js
+@@ -10,6 +10,9 @@ var _utils = require("./utils");
+ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+ async function stylusLoader(source) {
+   const options = this.getOptions(_options.default);
++  console.log();
++  console.log('options.stylusOptions.use: ', options.stylusOptions.use)
++  console.log();
+   const callback = this.async();
+   let implementation;
+   try {
